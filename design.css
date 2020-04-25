@@ -1,29 +1,84 @@
 html, body {
     height: 100%;
     margin: 0;
+    
 }
-.bg { 
-    /*background-image: url("Background.jpg");*/
+.bg {
+    background-image: url("/assets/Background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     
-   
-   
 }
 .header {
-    position: fixed;
+    position: absolute;
     top: 0px;
     width: 100%;
     height: 89px;
     background-color: #000000;
+   
 }
 .footer {
-    position: fixed;
     height: 105px;
     background-color: #FFFFFF;
     bottom: 0px;
     width: 100%;
 }
+.topnav {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+a {
+    margin-right: 40px;
+    font-family: "Helvetica Neue", "Arial"; font-size: 10px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 15.4px;
+    color: white;
+    text-decoration: none;
+}  
+.small-map {position: absolute;
+    height: 47.74px;
+    width: 58px;
+    margin-left: 81px;
+    margin-top: 23px;
+}
+.mike {position: absolute;
+    margin-left: 1041px;
+    margin-top: 33px;
+}  
+.mike-text {position: absolute;
+    margin-left: 1077px;
+    margin-top: 41px;
+    color: white;
+    font-family: "Helvetica Neue", "Arial"; font-size: 10px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 15.4px;  
 
+}
+.arrow {position: absolute;
+    margin-left: 1156px;
+    margin-top: 43px;
+}
+.search {position: absolute;
+    margin-left: 1212px;
+margin-top: 36.8px;
+}  
+.active {
+    color: red;
+}
+.bg-text {
+    color: white;
+    font-family: "Helvetica Neue", "Arial"; font-size: 98px;
+    font-weight: bold;
+    letter-spacing: -5px;
+    line-height: 90px;   
+    text-align: left;
+}
+.text-container { 
+    position: absolute;
+    width: 325px; 
+    height: 290px;
+    margin-left: 82px;
+    margin-top: 89px;
+}
