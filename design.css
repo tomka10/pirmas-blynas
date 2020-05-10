@@ -33,7 +33,7 @@ html, body {
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
-a {
+.nav-items {
     margin-right: 40px;
     font-family: "Helvetica Neue", "Arial"; font-size: 10px; font-style: normal; font-variant: normal; font-weight: 100; line-height: 15.4px;
     color: white;
@@ -81,4 +81,131 @@ margin-top: 36.8px;
     height: 290px;
     margin-left: 82px;
     margin-top: 89px;
+}
+.btn-1 {position: absolute;
+    background-color: red;
+    width: 130px;
+    height: 39px;
+    color: white;
+    border-color: transparent;
+    margin-left: 82px;
+    margin-top: 515px;
+}
+.watch-real {position: absolute;
+    width: 129px;
+    height: 38px;
+    margin-top: 515px;
+    margin-left: 280px;
+    color: white;
+    
+}
+
+.play-now {
+    font-size: 15px;
+    font-family: "Helvetica Neue", "Arial";
+    font-weight: bold;
+    top: 50%;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.main-text {position:absolute;
+    width:302px;
+    height:168px;
+    color: white;
+    margin-top: 263px;
+    margin-left: 50%;
+}
+.main-text-p {
+    color: white;
+    font-family: "Helvetica Neue", "Arial"; font-size: 15px;
+}
+.arrows {
+    position:absolute;
+    width: 100px;
+    height: 60px;
+    margin-left: 48%;
+   display: flex;
+   flex-direction:row;
+   margin-top:210px;
+  
+  
+  
+}
+.item-2 {
+   position: absolute;
+   margin-left: 45px;
+}
+.item-1 {
+    position: absolute;
+    
+}
+.social-ic {position: absolute;
+    width: 18.51px;
+    height: 148.17px;
+    margin-top: 300px;
+    margin-left: 1245px;
+}
+.twit-ic {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.date-container {position: absolute;
+    display:grid;
+    font-size: 19px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 473px;
+    height: 134px;
+    background: transparent;
+    margin-top: 590px;
+    margin-left: 455px;
+}
+.d1, .d2, .d3, .d4 {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.d5, .d6, .d7, .d8 {
+    font-size: 65px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.footer-text-left1 {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-text-left2 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #A4A4A4;
+    padding-top: 3px;
+}
+.text-position {
+    margin-left: 86px;
+    padding-top: 30px;
+}
+.footer-right {position: absolute;
+   margin-top: 20px;
+    margin-left: 1110px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-2 {
+    width: 130px;
+    height: 38px;
+    background: transparent;
+    border-color: #E33323;
+    border-width: 1px;
+    color: #E33323;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
